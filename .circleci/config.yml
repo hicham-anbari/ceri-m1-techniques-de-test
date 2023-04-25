@@ -23,13 +23,13 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install1
+          name: sudo add-apt-repository ppa:openjdk-r/ppa
           command: sudo add-apt-repository ppa:openjdk-r/ppa
       - run:
-          name: install2
+          name: sudo apt-get update
           command: sudo apt-get update
       - run:
-          name: install3
+          name: sudo apt-get install openjdk-11-jdk-headless -y
           command: sudo apt-get install openjdk-11-jdk-headless -y
       - run:
           name: Build-docs
