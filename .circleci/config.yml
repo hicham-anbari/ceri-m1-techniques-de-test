@@ -36,7 +36,7 @@ jobs:
           command: javadoc src/main/java/fr/univavignon/pokedex/api/* -d docs
       - add_ssh_keys:
           fingerprints:
-            - "ea:22:0e:98:94:72:0d:55:45:2b:48:e3:23:be:8b:e6"
+            - "fd:a5:6c:27:b6:3d:e2:f3:29:bd:52:18:cf:3c:61:e9"
       - persist_to_workspace:
           root: .
           paths: docs
