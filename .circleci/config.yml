@@ -55,7 +55,7 @@ jobs:
             git config user.name "hicham-anbari"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages --dist docs/_build/html
+          command: gh-pages --dist docs/
 
 workflows:
   sample:
