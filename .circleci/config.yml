@@ -11,12 +11,15 @@ jobs:
       - checkout
       - run:
           name: Build
-          command: mvn clean install
+          command: mvn -B -DskipTests clean install
       - run:
           name: Test
           command: mvn test
-      - codecov/upload:
-          file: /target/site/jacoco/jacoco.xml
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./target/site/jacoco/jacoco.xml
 
 workflows:
   sample:
