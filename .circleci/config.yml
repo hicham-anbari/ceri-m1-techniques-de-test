@@ -33,7 +33,7 @@ jobs:
           command: sudo apt-get install openjdk-11-jdk-headless -y
       - run:
           name: Build-docs
-          command: javadoc src/main/java/fr/univavignon/pokedex/api/* -d docs
+          command: javadoc src/main/java/fr/univavignon/pokedex/api/* -d target/site/docs
       - add_ssh_keys:
           fingerprints:
             - "0c:ae:b7:e8:71:e0:9e:67:f7:6d:41:22:30:07:96:43"
@@ -55,7 +55,7 @@ jobs:
             git config user.name "hicham-anbari"
             git clone --branch=gh-pages --depth=1 git@github.com:hicham-anbari/ceri-m1-techniques-de-test.git gh-pages
             rm -rf gh-pages/*
-            cp -R target/site/apidocs/* gh-pages/
+            cp -R target/site/docs/* gh-pages/
             cd gh-pages
             git add .
             git commit -m "Documentation mis à jour"
