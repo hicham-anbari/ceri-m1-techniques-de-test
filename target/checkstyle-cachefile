@@ -1,0 +1,5 @@
+#Tue Apr 25 18:11:42 CEST 2023
+module-resource*?\:checkstyle-suppressions.xml=3B20705032CC0187AC352DD58305BF14AB75D3BD
+module-resource*?\:checkstyle-xpath-suppressions.xml=42CA1509AD1A443F1083FDCB1D6D52C3E4F32709
+/Users/hichamanbari/Universit\u00E9/M1/S2/Techniques\ de\ tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokedexException.java=1677505187000
+configuration*?=F37C082E657D532EE4D6DA8473021ACF59249135
