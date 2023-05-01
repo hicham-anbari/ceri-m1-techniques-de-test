@@ -1,7 +1,14 @@
 package fr.univavignon.pokedex.api;
 
+/*
+ * Factory interface for class that aims to create Pokemon instance.
+ */
 public class PokemonFactory implements IPokemonFactory {
 
+    /*
+     * Creates a new pokemon instance using the given parameters.
+     * @throws PokedexException if the given index is inferior to 0.
+     */
     @Override
     public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy)
             throws PokedexException {
