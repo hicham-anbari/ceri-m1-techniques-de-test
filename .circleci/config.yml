@@ -39,7 +39,7 @@ jobs:
             rm -rf docs
             mkdir docs
             cd target/site/apidocs/
-            pwd
+            cp -R . ../../docs/
 
 workflows:
   sample:
