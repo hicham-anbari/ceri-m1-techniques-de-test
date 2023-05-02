@@ -55,7 +55,16 @@ jobs:
             git config user.name "hicham-anbari"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages --dist docs/
+          command: |
+            git config user.email "hicham.anb84@gmail.com"
+            git config user.name "hicham-anbari"
+            git clone --branch=gh-pages --depth=1 git@github.com:hicham-anbari/ceri-m1-techniques-de-test.git gh-pages
+            rm -rf gh-pages/*
+            cp -R target/site/apidocs/* gh-pages/
+            cd gh-pages
+            git add .
+            git commit -m "Deploy docs to gh-pages branch"
+            git push origin gh-pages
 
 workflows:
   sample:
