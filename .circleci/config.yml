@@ -40,8 +40,8 @@ jobs:
             mkdir docs
             cd target/site/apidocs/
             cp -R . ../../docs/
-            cd ../../../
-            ls -la
+            cd ../../../docs/
+            gh-pages --dist .
 
 workflows:
   sample:
