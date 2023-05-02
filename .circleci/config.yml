@@ -55,11 +55,7 @@ jobs:
             git config user.name "hicham-anbari"
       - run:
           name: Deploy docs to gh-pages branch
-          command: |
-            rm -rf docs
-            mkdir docs
-            cp -r target/site/apidocs/* docs/
-            gh-pages --dist docs
+          command: gh-pages --dist docs/
 
 workflows:
   sample:
