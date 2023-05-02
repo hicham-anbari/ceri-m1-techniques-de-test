@@ -38,7 +38,7 @@ jobs:
           command: |
             rm -rf docs
             mkdir docs
-            cat pwd
+            pwd
 
 workflows:
   sample:
