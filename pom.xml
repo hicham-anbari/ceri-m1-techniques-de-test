@@ -84,7 +84,7 @@
                             <configLocation>google_checks.xml</configLocation>
                             <consoleOutput>true</consoleOutput>
                             <failsOnError>true</failsOnError>
-                            <outputDirectory>docsUpload/checkstyle</outputDirectory>
+                            <outputDirectory>docs/checkstyle</outputDirectory>
                         </configuration>
                         <goals>
                             <goal>checkstyle</goal>
@@ -104,7 +104,7 @@
                             <goal>badges</goal>
                         </goals>
                         <configuration>
-                            <outputDir>docsUpload/badges</outputDir>
+                            <outputDir>docs/badges</outputDir>
                             <inputFiles>
                                 <inputFile>target/checkstyle-result.xml</inputFile>
                             </inputFiles>
