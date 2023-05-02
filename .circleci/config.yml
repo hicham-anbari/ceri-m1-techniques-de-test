@@ -2,7 +2,6 @@ version: 2.1
 
 orbs:
   codecov: codecov/codecov@3.2.4
-
 jobs:
   build-and-test:
     docker:
@@ -11,12 +10,14 @@ jobs:
       - checkout
       - run:
           name: Build
-          command: mvn -B -DskipTests clean install
+          command: mvn -B -DskipTests clean package
       - run:
           name: Test
           command: mvn test
+
       - codecov/upload:
           file: ./target/site/jacoco/jacoco.xml
+
   docs-deploy:
     docker:
       - image: node:8.10.0
@@ -28,8 +29,8 @@ jobs:
           name: Install and configure dependencies
           command: |
             npm install -g --silent gh-pages@2.0.1
-            git config user.email "hicham.anb84@gmail.com"
-            git config user.name "hicham-anbari"
+            git config --global user.email "hicham.anb84@gmail.com"
+            git config --global user.name "hicham-anbari"
       - add_ssh_keys:
           fingerprints:
             - "0c:ae:b7:e8:71:e0:9e:67:f7:6d:41:22:30:07:96:43"
@@ -38,16 +39,15 @@ jobs:
           command: |
             rm -rf docs
             mkdir docs
-            cd target/site/apidocs/
-            cp -R . ../../docs/
-            cd ../../../docs/
-            gh-pages --dist .
+            cp -r target/site/apidocs/* docs/
+            gh-pages --dist docs
 
 workflows:
   sample:
     jobs:
       - build-and-test
       - docs-deploy:
+        jobs:
           requires:
             - build-and-test
           filters:
