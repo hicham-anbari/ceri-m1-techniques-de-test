@@ -66,9 +66,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testSize" time="0.002"/>
-  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemon" time="0.004"/>
+  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testSize" time="0.001"/>
+  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemon" time="0.002"/>
   <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testAddPokemon" time="0.001"/>
-  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemons" time="0.001"/>
-  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemonsOrder" time="0.009"/>
+  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemons" time="0.002"/>
+  <testcase classname="fr.univavignon.pokedex.api.IPokedexTest" name="testGetPokemonsOrder" time="0.011"/>
 </testsuite>
