@@ -38,7 +38,8 @@ jobs:
           command: |
             rm -rf docs
             mkdir docs
-            cp -r target/site/apidocs/* docs/
+            cd target/site/apidocs/
+            pwd
 
 workflows:
   sample:
