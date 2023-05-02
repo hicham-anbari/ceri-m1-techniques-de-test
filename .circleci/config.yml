@@ -39,8 +39,8 @@ jobs:
             rm -rf docs
             mkdir docs
             pwd
+            cd target/site/apidocs/
             ls
-            cp -R target/site/apidocs/* docs
 
 workflows:
   sample:
