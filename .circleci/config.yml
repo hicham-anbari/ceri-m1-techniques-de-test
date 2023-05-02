@@ -38,8 +38,7 @@ jobs:
           command: |
             rm -rf docs
             mkdir docs
-            cp -r ../target/site/apidocs/* docs/
-            gh-pages --dist docs
+            cat pwd
 
 workflows:
   sample:
