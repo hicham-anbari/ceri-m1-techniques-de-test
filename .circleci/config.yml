@@ -17,55 +17,37 @@ jobs:
           command: mvn test
       - codecov/upload:
           file: ./target/site/jacoco/jacoco.xml
-  docs-build:
-    docker:
-      - image: cimg/base:2021.04
-    steps:
-      - checkout
-      - run:
-          name: sudo add-apt-repository ppa:openjdk-r/ppa
-          command: sudo add-apt-repository ppa:openjdk-r/ppa
-      - run:
-          name: sudo apt-get update
-          command: sudo apt-get update
-      - run:
-          name: sudo apt-get install openjdk-11-jdk-headless -y
-          command: sudo apt-get install openjdk-11-jdk-headless -y
-      - run:
-          name: Build-docs
-          command: javadoc src/main/java/fr/univavignon/pokedex/api/* -d docs
-      - add_ssh_keys:
-          fingerprints:
-            - "0c:ae:b7:e8:71:e0:9e:67:f7:6d:41:22:30:07:96:43"
-      - persist_to_workspace:
-          root: .
-          paths: docs
   docs-deploy:
     docker:
       - image: node:8.10.0
     steps:
       - checkout
       - attach_workspace:
-          at: docs/_build
+          at: target/site/apidocs/
       - run:
           name: Install and configure dependencies
           command: |
             npm install -g --silent gh-pages@2.0.1
             git config user.email "hicham.anb84@gmail.com"
             git config user.name "hicham-anbari"
+      - add_ssh_keys:
+          fingerprints:
+            - "0c:ae:b7:e8:71:e0:9e:67:f7:6d:41:22:30:07:96:43"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages --dist docs/
+          command: |
+            rm -rf docs
+            mkdir docs
+            cp -r target/site/apidocs/* docs/
+            gh-pages --dist docs
 
 workflows:
   sample:
     jobs:
       - build-and-test
-      - docs-build
       - docs-deploy:
           requires:
             - build-and-test
-            - docs-build
           filters:
             branches:
               only: master
