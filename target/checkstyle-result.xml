@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.44">
+<checkstyle version="9.3">
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="8" column="18" severity="warning" message="L&apos;abréviation dans le nom &apos;IPokemonTrainerFactory&apos; ne doit pas contenir plus de &apos;1&apos; lettres majuscules." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="13" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="14" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -17,13 +17,13 @@
 <error line="19" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokedex.java">
-<error line="10" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="10" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="12" column="18" severity="warning" message="L&apos;abréviation dans le nom &apos;IPokedex&apos; ne doit pas contenir plus de &apos;1&apos; lettres majuscules." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="14" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="16" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="17" severity="warning" message="Javadoc tag &apos;@return&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="17" severity="warning" message="Javadoc tag &apos;@return&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="17" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="18" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="19" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -33,7 +33,7 @@
 <error line="22" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="23" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="24" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="25" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="25" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="25" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="26" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="27" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -43,7 +43,7 @@
 <error line="30" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="31" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="32" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="33" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="33" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="33" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="34" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="35" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -54,7 +54,7 @@
 <error line="39" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="40" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="41" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="42" severity="warning" message="Javadoc tag &apos;@return&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="42" severity="warning" message="Javadoc tag &apos;@return&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="42" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="43" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="44" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -63,7 +63,7 @@
 <error line="47" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="48" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="49" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="50" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="50" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="50" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="51" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="52" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -72,14 +72,14 @@
 <error line="54" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/Team.java">
-<error line="5" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="5" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="9" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/Pokemon.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="9" severity="warning" message="&apos;member def modifier&apos; au niveau d&apos;indentation 8 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -99,7 +99,7 @@
 <error line="25" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="26" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="27" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="28" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="28" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="29" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="30" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -186,13 +186,13 @@
 <error line="23" column="2" severity="warning" message="&apos;class def rcurly&apos; au niveau d&apos;indentation 1 n&apos;est pas indenté correctement, le niveau attendu est 0." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="8" column="18" severity="warning" message="L&apos;abréviation dans le nom &apos;IPokedexFactory&apos; ne doit pas contenir plus de &apos;1&apos; lettres majuscules." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="14" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="14" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="14" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="16" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -215,7 +215,7 @@
 <error line="26" column="5" severity="warning" message="&apos;method def rcurly&apos; au niveau d&apos;indentation 4 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="9" severity="warning" message="&apos;member def modifier&apos; au niveau d&apos;indentation 8 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -230,7 +230,7 @@
 <error line="19" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="20" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="21" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="22" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="22" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="22" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="23" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="24" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -296,12 +296,12 @@
 <error line="37" column="5" severity="warning" message="&apos;method def rcurly&apos; au niveau d&apos;indentation 4 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="8" column="18" severity="warning" message="L&apos;abréviation dans le nom &apos;IPokemonFactory&apos; ne doit pas contenir plus de &apos;1&apos; lettres majuscules." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="13" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="14" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -315,7 +315,7 @@
 <error line="21" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java">
-<error line="8" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="8" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -332,7 +332,7 @@
 <error line="26" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="27" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="28" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="29" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="29" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="29" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="30" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="31" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -352,13 +352,13 @@
 <error line="40" column="9" severity="warning" message="&apos;method def rcurly&apos; au niveau d&apos;indentation 8 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java">
-<error line="7" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="7" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="9" column="18" severity="warning" message="L&apos;abréviation dans le nom &apos;IPokemonMetadataProvider&apos; ne doit pas contenir plus de &apos;1&apos; lettres majuscules." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="12" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="13" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="14" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="15" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="15" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="15" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="16" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="17" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -368,7 +368,7 @@
 <error line="20" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java">
-<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="6" severity="warning" message="Javadoc tag &apos;@author&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="10" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="11" column="9" severity="warning" message="&apos;member def modifier&apos; au niveau d&apos;indentation 8 n&apos;est pas indenté correctement, le niveau attendu est 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -387,7 +387,7 @@
 <error line="25" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="26" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="27" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé dune ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="28" severity="warning" message="Javadoc tag &apos;@param&apos; doit être précédé d&apos;une ligne vide." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
 <error line="28" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="29" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="30" column="1" severity="warning" message="La ligne contient un caractère tabulation." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
