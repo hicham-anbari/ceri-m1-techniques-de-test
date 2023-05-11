@@ -3,6 +3,7 @@ package fr.univavignon.pokedex.api;
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.*;
 
 public class IPokemonFactoryTest {
@@ -20,6 +21,8 @@ public class IPokemonFactoryTest {
 
     @Test
     public void testCreatePokemon() throws PokedexException {
+        assertThrows(PokedexException.class, () -> pokemonFactory.createPokemon(-1, 613, 64, 4000, 4));
+
         assertEquals(0, bulbizarre.getIndex());
         assertEquals("Bulbizarre", bulbizarre.getName());
         assertEquals(126, bulbizarre.getAttack());
@@ -40,5 +43,8 @@ public class IPokemonFactoryTest {
         assertEquals(5000, aquali.getDust());
         assertEquals(4, aquali.getCandy());
         assertEquals(100, aquali.getIv(), 0);
+
+        assertEquals((100 + 0) / 2.0, bulbizarre.getIv(), (100 - 0) / 2.0);
+        assertEquals((100 + 0) / 2.0, aquali.getIv(), (100 - 0) / 2.0);
     }
 }

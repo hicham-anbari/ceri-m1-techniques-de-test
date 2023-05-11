@@ -58,10 +58,10 @@ public class IPokedexTest {
     public void testGetPokemonsOrder() throws PokedexException {
         pokedex.addPokemon(bulbizarre);
         pokedex.addPokemon(aquali);
-        Comparator<Pokemon> comparator = Comparator.comparing(Pokemon::getIndex);
-        List<Pokemon> pokemons = pokedex.getPokemons(comparator);
+        List<Pokemon> pokemons = pokedex.getPokemons();
         assertEquals(2, pokemons.size());
         assertEquals(bulbizarre, pokemons.get(0));
         assertEquals(aquali, pokemons.get(1));
+        assertEquals(pokemons, pokedex.getPokemons(PokemonComparators.NAME));
     }
 }
