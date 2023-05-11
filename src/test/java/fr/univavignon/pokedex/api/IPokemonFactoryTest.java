@@ -28,6 +28,7 @@ public class IPokemonFactoryTest {
         assertEquals(126, bulbizarre.getAttack());
         assertEquals(126, bulbizarre.getDefense());
         assertEquals(90, bulbizarre.getStamina());
+        assertEquals(64, bulbizarre.getHp());
         assertEquals(613, bulbizarre.getCp());
         assertEquals(4000, bulbizarre.getDust());
         assertEquals(4, bulbizarre.getCandy());
@@ -40,6 +41,7 @@ public class IPokemonFactoryTest {
         assertEquals(168, aquali.getDefense());
         assertEquals(260, aquali.getStamina());
         assertEquals(2729, aquali.getCp());
+        assertEquals(202, aquali.getHp());
         assertEquals(5000, aquali.getDust());
         assertEquals(4, aquali.getCandy());
         assertEquals(100, aquali.getIv(), 0);

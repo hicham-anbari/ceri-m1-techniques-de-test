@@ -7,8 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 public class IPokedexTest {
@@ -42,6 +41,10 @@ public class IPokedexTest {
         pokedex.addPokemon(aquali);
         assertEquals(bulbizarre, pokedex.getPokemon(0));
         assertEquals(aquali, pokedex.getPokemon(1));
+
+        assertThrows(PokedexException.class, () -> {
+            pokedex.getPokemon(-1);
+        });
     }
 
     @Test
@@ -63,5 +66,33 @@ public class IPokedexTest {
         assertEquals(bulbizarre, pokemons.get(0));
         assertEquals(aquali, pokemons.get(1));
         assertEquals(pokemons, pokedex.getPokemons(PokemonComparators.NAME));
+    }
+
+    @Test
+    public void testCreatePokemon() throws PokedexException{
+        Pokemon pokemon = pokedex.createPokemon(0,613,64,4000,4);
+        assertEquals(pokemon.getIndex(),bulbizarre.getIndex());
+        assertEquals(pokemon.getCp(),bulbizarre.getCp());
+        assertEquals(pokemon.getHp(),bulbizarre.getHp());
+        assertEquals(pokemon.getDust(),bulbizarre.getDust());
+        assertEquals(pokemon.getCandy(),bulbizarre.getCandy());
+
+        Pokemon pokemon2 = pokedex.createPokemon(133,2729,202,5000,4);
+        assertEquals(pokemon2.getIndex(),aquali.getIndex());
+        assertEquals(pokemon2.getCp(),aquali.getCp());
+        assertEquals(pokemon2.getHp(),aquali.getHp());
+        assertEquals(pokemon2.getDust(),aquali.getDust());
+        assertEquals(pokemon2.getCandy(),aquali.getCandy());
+    }
+
+    @Test
+    public void testGetPokemonMetadata() throws PokedexException{
+        pokedex.addPokemon(bulbizarre);
+        PokemonMetadata pokemonMetadata = pokedex.getPokemonMetadata(0);
+        Assert.assertEquals(pokemonMetadata.getIndex(),bulbizarre.getIndex());
+        Assert.assertEquals(pokemonMetadata.getName(),bulbizarre.getName());
+        Assert.assertEquals(pokemonMetadata.getAttack(),bulbizarre.getAttack());
+        Assert.assertEquals(pokemonMetadata.getDefense(),bulbizarre.getDefense());
+        Assert.assertEquals(pokemonMetadata.getStamina(),bulbizarre.getStamina());
     }
 }

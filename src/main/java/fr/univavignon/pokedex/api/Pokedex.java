@@ -26,7 +26,7 @@ public class Pokedex implements IPokedex {
     /*
      * Constructor.
      */
-    public Pokedex(final IPokemonMetadataProvider metadataProvider, final IPokemonFactory factory) {
+    public Pokedex(IPokemonMetadataProvider metadataProvider, IPokemonFactory factory) {
         pokemons = new ArrayList<>();
         pokemonFactory = factory;
         pokemonMetadataProvider = metadataProvider;
@@ -44,7 +44,7 @@ public class Pokedex implements IPokedex {
      * Adds a pokemon to the pokedex.
      */
     @Override
-    public int addPokemon(final Pokemon pokemon) {
+    public int addPokemon(Pokemon pokemon) {
         pokemons.add(pokemon);
         return pokemons.size();
     }
@@ -53,8 +53,8 @@ public class Pokedex implements IPokedex {
      * Returns the pokemon at the given index.
      */
     @Override
-    public Pokemon getPokemon(final int id) throws PokedexException {
-        if (id < 0 || id >= pokemons.size()) {
+    public Pokemon getPokemon(int id) throws PokedexException {
+        if (id < 0) {
             throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
         }
         return pokemons.get(id);
@@ -72,7 +72,7 @@ public class Pokedex implements IPokedex {
      * Returns the list of pokemons sorted by the given comparator.
      */
     @Override
-    public List<Pokemon> getPokemons(final Comparator<Pokemon> order) {
+    public List<Pokemon> getPokemons(Comparator<Pokemon> order) {
         List<Pokemon> pokemonList = pokemons;
         pokemonList.sort(order);
         return Collections.unmodifiableList(pokemonList);
@@ -83,7 +83,7 @@ public class Pokedex implements IPokedex {
      * @throws PokedexException if the given index is invalid.
      */
     @Override
-    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
+    public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) throws PokedexException {
         return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
@@ -92,7 +92,7 @@ public class Pokedex implements IPokedex {
      * @throws PokedexException if the given index is invalid.
      */
     @Override
-    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
+    public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
         return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 
