@@ -40,7 +40,7 @@ public class IPokedexTest {
         pokedex.addPokemon(bulbizarre);
         pokedex.addPokemon(aquali);
         assertEquals(bulbizarre, pokedex.getPokemon(0));
-        assertEquals(aquali, pokedex.getPokemon(1));
+        assertEquals(aquali, pokedex.getPokemon(133));
 
         assertThrows(PokedexException.class, () -> {
             pokedex.getPokemon(-1);

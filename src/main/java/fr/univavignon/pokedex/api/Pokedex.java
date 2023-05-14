@@ -54,10 +54,12 @@ public class Pokedex implements IPokedex {
      */
     @Override
     public Pokemon getPokemon(int id) throws PokedexException {
-        if (id < 0) {
-            throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
+        for (Pokemon pokemon : pokemons) {
+            if (pokemon.getIndex() == id) {
+                return pokemon;
+            }
         }
-        return pokemons.get(id);
+        throw new PokedexException("Le Pokémon n'est pas enregistré dans le pokédex");
     }
 
     /*
