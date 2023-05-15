@@ -45,7 +45,7 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: target/site/apidocs/
+          at: docs/
       - run:
           name: Install and configure dependencies
           command: |
