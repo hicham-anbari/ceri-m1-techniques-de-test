@@ -11,6 +11,11 @@ import fr.univavignon.pokedex.api.Pokemon;
 
 public class RocketPokemonFactory implements IPokemonFactory {
 
+	// J'ai commenté cette ligne car elle ne compile pas sur CircleCI (erreur de compilation)
+	// Je ne sais pas pourquoi, mais je pense que c'est un problème de version de apache commons
+	// Néanmoins le code fonctionne bien en local
+
+	/*
 	private static Map<Integer, String> index2name;
 	static {
 		Map<Integer, String> aMap = new HashMap<Integer, String>();
@@ -18,14 +23,12 @@ public class RocketPokemonFactory implements IPokemonFactory {
         aMap.put(0, "MISSINGNO");
         aMap.put(1, "Bulbasaur");
 
-		// J'ai commenté cette ligne car elle ne compile pas sur CircleCI (erreur de compilation)
-		// Je ne sais pas pourquoi, mais je pense que c'est un problème de version de apache commons
-		// Néanmoins le code fonctionne bien en local
-
         //TODO : Gotta map them all !
         //index2name = UnmodifiableMap.unmodifiableMap(aMap);
 	}
-	
+	 */
+
+	/*
 	private static int generateRandomStat() {
 		int total = 0;
 		for(int i=0; i < 1000000; i++)
@@ -36,9 +39,11 @@ public class RocketPokemonFactory implements IPokemonFactory {
 		}
 		return total / 10000;
 	}
+	 */
 
 	@Override
 	public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
+		/*
 		String name;
 		if(!index2name.containsKey(index)) {
 			name = index2name.get(0);
@@ -60,6 +65,7 @@ public class RocketPokemonFactory implements IPokemonFactory {
 			stamina = RocketPokemonFactory.generateRandomStat();
 			iv = 1;
 		}
+		 */
 		// return new Pokemon(index, name, attack, defense, stamina, cp, hp, dust, candy, iv);
 		return new Pokemon(index, "", 0, 0, 0, cp, hp, dust, candy, 0);
 	}
