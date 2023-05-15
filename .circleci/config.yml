@@ -62,7 +62,6 @@ jobs:
 workflows:
   sample:
     jobs:
-      - build-and-test
       - docs-deploy:
         jobs:
           requires:
