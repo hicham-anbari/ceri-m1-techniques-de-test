@@ -66,12 +66,9 @@ workflows:
       - docs:
           requires:
             - build-and-test
-          filters:
-            branches:
-              only: master
       - docs-deploy:
-            requires:
-                - docs
-            filters:
-                branches:
-                only: master
+          requires:
+              - docs
+          filters:
+              branches:
+              only: main
