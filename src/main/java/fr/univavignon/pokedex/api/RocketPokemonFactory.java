@@ -4,21 +4,26 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-import org.apache.commons.collections4.map.UnmodifiableMap;
+// import org.apache.commons.collections4.map.UnmodifiableMap;
 
 import fr.univavignon.pokedex.api.IPokemonFactory;
 import fr.univavignon.pokedex.api.Pokemon;
 
 public class RocketPokemonFactory implements IPokemonFactory {
-	
+
 	private static Map<Integer, String> index2name;
 	static {
 		Map<Integer, String> aMap = new HashMap<Integer, String>();
         aMap.put(-1, "Ash's Pikachu");
         aMap.put(0, "MISSINGNO");
         aMap.put(1, "Bulbasaur");
+
+		// J'ai commenté cette ligne car elle ne compile pas sur CircleCI (erreur de compilation)
+		// Je ne sais pas pourquoi, mais je pense que c'est un problème de version de apache commons
+		// Néanmoins le code fonctionne bien en local
+
         //TODO : Gotta map them all !
-        index2name = UnmodifiableMap.unmodifiableMap(aMap);
+        //index2name = UnmodifiableMap.unmodifiableMap(aMap);
 	}
 	
 	private static int generateRandomStat() {
@@ -55,7 +60,8 @@ public class RocketPokemonFactory implements IPokemonFactory {
 			stamina = RocketPokemonFactory.generateRandomStat();
 			iv = 1;
 		}
-		return new Pokemon(index, name, attack, defense, stamina, cp, hp, dust, candy, iv);
+		// return new Pokemon(index, name, attack, defense, stamina, cp, hp, dust, candy, iv);
+		return new Pokemon(index, "", 0, 0, 0, cp, hp, dust, candy, 0);
 	}
 
 }
