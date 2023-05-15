@@ -11,12 +11,15 @@ public class IPokemonFactoryTest {
     private Pokemon bulbizarre;
     private Pokemon aquali;
 
+    // TP6 : private IPokemonFactory rocketPokemonFactory;
+
     @Before
     public void setUp() throws PokedexException {
         pokemonFactory = new PokemonFactory();
         bulbizarre = new Pokemon(0, "Bulbizarre", 126, 126, 90, 613, 64, 4000, 4, 56);
         aquali = new Pokemon(133, "Aquali", 186, 168, 260, 2729, 202, 5000, 4, 100);
 
+        // TP6 : rocketPokemonFactory = new RocketPokemonFactory();
     }
 
     @Test
@@ -48,5 +51,23 @@ public class IPokemonFactoryTest {
 
         assertEquals((100 + 0) / 2.0, bulbizarre.getIv(), (100 - 0) / 2.0);
         assertEquals((100 + 0) / 2.0, aquali.getIv(), (100 - 0) / 2.0);
+
+        /* TP6
+        Remarque : Les tests suivants ne fonctionnent pas car la classe rocketPokemonFactory n'utilise pas la classe PokemonMetadataProvider
+        pour créer des pokémons. Elle utilise une autre source de données fixé en dur dans la classe.
+        Il est donc impossible de créer un pokemon avec les mêmes caractéristiques que ceux créés par la classe PokemonFactory.
+
+        Pokemon bulbizarreRocket = rocketPokemonFactory.createPokemon(0, 613, 64, 4000, 4);
+        assertEquals(bulbizarre.getIndex(), bulbizarreRocket.getIndex());
+        assertEquals(bulbizarre.getName(), bulbizarreRocket.getName());
+        assertEquals(bulbizarre.getAttack(), bulbizarreRocket.getAttack());
+        assertEquals(bulbizarre.getDefense(), bulbizarreRocket.getDefense());
+        assertEquals(bulbizarre.getStamina(), bulbizarreRocket.getStamina());
+        assertEquals(bulbizarre.getCp(), bulbizarreRocket.getCp());
+        assertEquals(bulbizarre.getHp(), bulbizarreRocket.getHp());
+        assertEquals(bulbizarre.getDust(), bulbizarreRocket.getDust());
+        assertEquals(bulbizarre.getCandy(), bulbizarreRocket.getCandy());
+        assertEquals(bulbizarre.getIv(), bulbizarreRocket.getIv(), 0);
+         */
     }
 }
