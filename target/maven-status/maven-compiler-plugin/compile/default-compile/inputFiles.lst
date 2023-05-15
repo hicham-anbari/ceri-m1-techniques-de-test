@@ -1,0 +1,15 @@
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/Pokedex.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/Pokemon.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokedexException.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/Team.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/IPokedex.java
+/Users/hichamanbari/Université/M1/S2/Techniques de tests/TPS/ceri-m1-techniques-de-test/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java
