@@ -60,13 +60,18 @@ jobs:
           command: gh-pages --dist docs
 
 workflows:
-  sample:
+  main:
     jobs:
-      - build-and-test
-      - docs
+      - build-and-test:
+          filters:
+            branches:
+              only: master
+      - docs:
+          requires:
+            - build-and-test
       - docs-deploy:
           requires:
             - docs
           filters:
             branches:
-              only: main
+              only: master
