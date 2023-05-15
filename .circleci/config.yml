@@ -70,10 +70,8 @@ workflows:
             branches:
               only: master
       - docs-deploy:
-        jobs:
-          requires:
-            - build-and-test
-            - docs
-          filters:
-            branches:
-              only: master
+            requires:
+                - docs
+            filters:
+                branches:
+                only: master
