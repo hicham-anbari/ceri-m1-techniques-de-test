@@ -62,6 +62,13 @@ jobs:
 workflows:
   sample:
     jobs:
+      - build-and-test
+      - docs:
+          requires:
+            - build-and-test
+          filters:
+            branches:
+              only: master
       - docs-deploy:
         jobs:
           requires:
