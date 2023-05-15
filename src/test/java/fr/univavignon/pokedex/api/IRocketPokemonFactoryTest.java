@@ -43,5 +43,10 @@ public class IRocketPokemonFactoryTest {
         assertEquals(pikachu.getDust(), 0);
         assertEquals(pikachu.getCandy(), 0);
         assertEquals(pikachu.getIv(), 0, 0);
+
+
+        // Test avec un index inconnu (MISSINGNO)
+        Pokemon missingno = rocketPokemonFactory.createPokemon(1000, 0, 0, 0, 0);
+        assertEquals(missingno.getName(), "MISSINGNO");
     }
 }
