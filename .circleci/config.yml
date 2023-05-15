@@ -63,12 +63,10 @@ workflows:
   sample:
     jobs:
       - build-and-test
-      - docs:
-          requires:
-            - build-and-test
+      - docs
       - docs-deploy:
           requires:
-              - docs
+            - docs
           filters:
-              branches:
+            branches:
               only: main
