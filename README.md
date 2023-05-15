@@ -12,3 +12,16 @@
 [Github pages](https://hicham-anbari.github.io/ceri-m1-techniques-de-test/docs/fr/univavignon/pokedex/api/package-summary.html)
 
 ### Rapport du projet (TP6)
+Une fois la classe RocketPockemonFactory est ajoutée, et que nous avions remplacé dans IPokemonFactoryTest 
+notre pokemonFactory par un rocketPokemonFactory, nous pouvons remarqués que les tests ne passent plus à cause de :
+- La méthode testCreatePokemon() ne passe plus car il attend un Bulbizarre mais reçois un MISSINGNO
+- Cette même méthode ne lance plus d'exception car l'index -1 est associé à Ash's pikachu
+
+Mais c'est normal car quand on regarde RocketPockemonFactory on voit que : 
+- Le nom des pokemons sont créés en dur dans le code pour (-1, 0, 1)
+- Les capacités des pokemons sont créés aléatoirement 
+- IV ne peut être que 0 ou 1
+
+#### Conclusion
+Nous pouvons donc conclure que les tests ne sont pas assez robustes pour tester la classe RocketPockemonFactory
+Néanmoins, j'ai créer une classe IRocketPockemonFactoryTest pour faire en sorte que les tests passent.
